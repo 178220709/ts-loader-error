@@ -8,6 +8,8 @@
     </div>
 </template>
 
+
+<!--remove ng="ts" ,can work fine -->
 <script  type="ts" lang="ts">
 
 </script>
