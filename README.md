@@ -1,14 +1,14 @@
 # vue-multiple-pages
 
->Vue2.0å¤šé¡µåº”ç”¨
+>Vue2.0¶àÒ³Ó¦ÓÃ
 
-## Links ä¾èµ–é“¾æ¥
+## Links ÒÀÀµÁ´½Ó
 
 1. [Vue](https://github.com/vuejs/vue)
 2. [Webpack](https://github.com/webpack/webpack)
 3. [Element](https://github.com/ElemeFE/element)
 
-## Start å¼€å§‹
+## Start ¿ªÊ¼
 
  - Clone or download this repository
  - Enter your local directory, and install dependencies:
@@ -17,7 +17,7 @@
 npm install
 ```
 
-## Develop å¼€å‘æ„å»º
+## Develop ¿ª·¢¹¹½¨
 
 ``` bash
 # serve with hot reload at localhost:8080
@@ -29,7 +29,7 @@ npm run dev
 
 [http://localhost:8010/user/index.html](http://localhost:8010/user/index.html)
 
-## Build ç”Ÿäº§æ„å»º
+## Build Éú²ú¹¹½¨
 
 ``` bash
 # build for production with minification
@@ -39,29 +39,29 @@ node server.js
 
 [http://localhost:2333/user/login.html](http://localhost:2333/user/login.html)
 
-## Folder Structure æ–‡ä»¶ç›®å½•
+## Folder Structure ÎÄ¼şÄ¿Â¼
 
 ```bash
-â”œâ”€â”€ src             # ä¸»ç›®å½•
-â”‚    â”œâ”€â”€ assets     # èµ„æºç›®å½•
-â”‚    â”‚    â”œâ”€â”€ css   # css
-â”‚    â”‚    â””â”€â”€ img   # å›¾ç‰‡ç›®å½•
-â”‚    â”œâ”€â”€ components # è‡ªå®šä¹‰ç»„ä»¶ç›®å½•
-â”‚    â””â”€â”€ pages      # é¡µé¢ç›®å½•
-â”‚         â””â”€â”€ user  # ä¸šåŠ¡æ¨¡å—ç›®å½•
-â”‚              â”œâ”€â”€ index  # index é¡µé¢
-â”‚              â”‚    â”œâ”€â”€ app.js    # å…¥å£js
-â”‚              â”‚    â”œâ”€â”€ app.html  # htmlæ¨¡æ¿
-â”‚              â”‚    â””â”€â”€ app.vue   # index é¡µé¢ç»„ä»¶
-â”‚              â””â”€â”€ login  # login é¡µé¢
-â”‚                   â”œâ”€â”€ app.js    # å…¥å£js
-â”‚                   â”œâ”€â”€ app.html  # htmlæ¨¡æ¿
-â”‚                   â””â”€â”€ app.vue   # login é¡µé¢ç»„ä»¶
-â”œâ”€â”€ dist            # npm run buildç”Ÿæˆçš„ç›®å½•
-â”œâ”€â”€ node_modules    # dependencies
-â”œâ”€â”€ .babelrc        # babelæ–‡ä»¶
-â”œâ”€â”€ server.js       # ç”¨äºæŸ¥çœ‹npm run buildçš„server.jsï¼Œç«¯å£2333
-â”œâ”€â”€ webpack.config.js # webpacké…ç½®ç›®å½•
-â”œâ”€â”€ node_modules    # dependencies
-â””â”€â”€ package.json    # package info
+©À©¤©¤ src             # Ö÷Ä¿Â¼
+©¦    ©À©¤©¤ assets     # ×ÊÔ´Ä¿Â¼
+©¦    ©¦    ©À©¤©¤ css   # css
+©¦    ©¦    ©¸©¤©¤ img   # Í¼Æ¬Ä¿Â¼
+©¦    ©À©¤©¤ components # ×Ô¶¨Òå×é¼şÄ¿Â¼
+©¦    ©¸©¤©¤ pages      # Ò³ÃæÄ¿Â¼
+©¦         ©¸©¤©¤ user  # ÒµÎñÄ£¿éÄ¿Â¼
+©¦              ©À©¤©¤ index  # index Ò³Ãæ
+©¦              ©¦    ©À©¤©¤ app.js    # Èë¿Újs
+©¦              ©¦    ©À©¤©¤ app.html  # htmlÄ£°å
+©¦              ©¦    ©¸©¤©¤ app.vue   # index Ò³Ãæ×é¼ş
+©¦              ©¸©¤©¤ login  # login Ò³Ãæ
+©¦                   ©À©¤©¤ app.js    # Èë¿Újs
+©¦                   ©À©¤©¤ app.html  # htmlÄ£°å
+©¦                   ©¸©¤©¤ app.vue   # login Ò³Ãæ×é¼ş
+©À©¤©¤ dist            # npm run buildÉú³ÉµÄÄ¿Â¼
+©À©¤©¤ node_modules    # dependencies
+©À©¤©¤ .babelrc        # babelÎÄ¼ş
+©À©¤©¤ server.js       # ÓÃÓÚ²é¿´npm run buildµÄserver.js£¬¶Ë¿Ú2333
+©À©¤©¤ webpack.config.js # webpackÅäÖÃÄ¿Â¼
+©À©¤©¤ node_modules    # dependencies
+©¸©¤©¤ package.json    # package info
 ```
