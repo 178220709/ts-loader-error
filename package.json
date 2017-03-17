@@ -5,23 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "publish_pmp_front": "gulp publish_pmp_front ",
-    "publish_pmp_back": "gulp publish_pmp_back "
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "element-ui": "^1.2.1",
-    "flex.css": "^1.1.6",
-    "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
-    "gulp-qiniu": "^0.2.4",
-    "js-cookie": "^2.1.3",
-    "lodash": "^4.17.4",
-    "moment": "^2.16.0",
-    "vue": "^2.1.10",
-    "vue-resource": "^1.0.3",
-    "vue-router": "^2.0.3",
-    "vuex": "^2.0.0"
+    "vue": "^2.1.10"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",

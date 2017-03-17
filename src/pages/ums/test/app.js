@@ -1,12 +1,5 @@
 import Vue from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
-import App from './app.vue'
-
-
-import "assets/css/main.css"
-
-Vue.use(ElementUI);
+import App from './app3.vue'
 
 new Vue({
     el: '#app',

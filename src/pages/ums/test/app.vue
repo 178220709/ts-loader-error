@@ -8,12 +8,7 @@
     </div>
 </template>
 
-<script  lang="ts">
-
-</script>
-
-
-<script2 type="ts" lang="ts">
+<script  type="ts" lang="ts">
     import Vue from 'vue'
     import {Component, Inject, Model, Prop, Watch} from 'vue-property-decorator'
 
@@ -23,4 +18,5 @@
         msg: string = ""
         str1: string = ""
     }
-</script2>
+</script>
+
