@@ -22,6 +22,10 @@ let config = {
     resolve: {
         //配置别名，在项目中可缩减引用路径
         extensions: ['.js', '.ts','.vue'],
+        alias: {
+            // 'vue$': 'vue/dist/vue.common.js',
+            assets: join(__dirname, '/src/assets'),
+        }
     },
 
     module: {

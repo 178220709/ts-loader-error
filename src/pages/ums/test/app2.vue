@@ -4,8 +4,8 @@
             test page
         </div>
         <h1>{{ msg }}</h1>
-        <h1>{{ logoImg }}</h1>
-        <el-button @click.native="startHacking">Let's do it</el-button>
+        <img :src="logoImg" alt="">
+        <input type="button" @click.native="startHacking" value="Let's do it">
     </div>
 </template>
 
@@ -21,11 +21,7 @@
 
         methods: {
             startHacking () {
-                this.$notify({
-                    title: 'It Works',
-                    message: 'We have laid the groundwork for you. Now it\'s your time to build something epic!',
-                    duration: 6000
-                })
+                alert("hello")
             }
         }
     }
