@@ -21,7 +21,7 @@ let config = {
     },
     resolve: {
         //配置别名，在项目中可缩减引用路径
-        extensions: ['.js', '.ts','.vue'],
+        extensions: ['.vue', '.ts', '.js'],
         alias: {
             // 'vue$': 'vue/dist/vue.common.js',
             assets: join(__dirname, '/src/assets'),
@@ -141,13 +141,10 @@ module.exports = config;
 function getEntriesAndChunks() {
     let buildTarget = getBuildTarget();
     console.log("buildTarget in getEntriesAndChunks  is " + buildTarget);
-    if (buildTarget) {
-        entries[`${buildTarget}/app`] = [`./src/pages/${buildTarget}/app.js`];
-        chunks.push(`${buildTarget}/app`);
-        return
-    }
+    let _entry = buildTarget ? `./src/pages/${buildTarget}/app.*(js|ts)`
+        : './src/pages/**/app.*(js|ts)';
 
-    glob.sync('./src/pages/**/app.js').forEach(function (name) {
+    glob.sync(_entry).forEach(function (name) {
         let n = name.slice(name.lastIndexOf('src/') + 10, name.length - 3);
         entries[n] = [name];
         chunks.push(n);

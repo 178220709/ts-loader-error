@@ -4,7 +4,7 @@
             登录页2
         </div>
         <span>{{msg}}</span>
-        <el-button @click="showMsg"></el-button>
+        <button @click="showMsg">123</button>
     </div>
 </template>
 
