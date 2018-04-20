@@ -1,5 +1,5 @@
 {
-  "target": "ums/test",
+  "target": "demo/test",
   "bak":"pmp/front",
   "bak2":"pmp/back",
   "bak3":"ums/test",
